@@ -75,7 +75,7 @@ const mostrar = ref (false)
     <option value="53">DF - Distrito Federal</option>
     <option value="32">ES - Espirito Santo</option>
     <option value="52">GO - Goias</option>
-    <option value="21">MA- Maranhão</option>
+    <option value="21">MA-  Maranhão</option>
     <option value="51">MT - Mato Grosso</option>
     <option value="50">MS - Mato Grosso do Sul</option>
     <option value="31">MG - Minas Gerais</option>
@@ -134,4 +134,31 @@ const mostrar = ref (false)
 </div>
 
 </template>
+<style scoped>
+* {
+  padding: 0;
+  margin: 0;
+}
+form {
+  width: 30%;
+  margin: 5em auto;
+  padding: 3em;
+
+}
+input {
+  width: 100%;
+  padding: .8em;
+}
+
+select {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: .8em;
+  color: white;
+  text-transform: uppercase;
+}
+</style>
 
