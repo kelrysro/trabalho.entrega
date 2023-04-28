@@ -2,6 +2,8 @@
 * {
   padding: 0;
   margin: 0;
+  background-color: rgb(48, 21, 199);
+  color: aliceblue;
 }
 form {
   width: 30%;
@@ -21,6 +23,10 @@ select {
 button {
   width: 100%;
   padding: .8em;
-  color: white;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
+}
+
+element.style{
+   background-color: blueviolet;
 }
